@@ -1,9 +1,11 @@
+transformers==4.37.2
+torch
+torchvision
 streamlit
 opencv-contrib-python
 numpy
 requests
 Pillow
 transformers
-torch
 pyttsx3
 urllib3==2.0.4

@@ -140,8 +140,7 @@ def load_model(model_name: str = MODEL_NAME):
             classifier = pipeline(
                 "image-classification", 
                 model=model_name, 
-                device=device,
-                framework="pt"
+                device=device,   
             )
         
         st.success(f"✅ Model loaded successfully on {device_name}")
