@@ -519,7 +519,7 @@ def main():
             
             # Display image
             display_img = image_processor.resize_for_display(pil_img)
-            st.image(display_img, caption=f"📷 {source_desc}", use_column_width=True)
+            st.image(display_img, caption=f"📷 {source_desc}")
             
             # Classify image
             with st.spinner("🔍 Analyzing image..."):
