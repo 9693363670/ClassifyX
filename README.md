@@ -1,5 +1,7 @@
 # 🎯 ClassifyX – AI Image Classifier
 
+Mainly detect the **Birds** and **Animals** in the road or road side area to protect the animals , birds as well as human from accidents 
+
 ClassifyX is a **Streamlit-based AI web app** that classifies uploaded images into different categories using a deep learning model.  
 It provides an **easy-to-use interface** with real-time predictions and speech output for accessibility.
 
